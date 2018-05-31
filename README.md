@@ -42,3 +42,6 @@ We are updating our code. Please do not clone this repo yet.
       $ bash run-s.sh
 ```
    The trained model will be created in `models`
+   
+## Acknowledgment
+This code is heavily borrowed from [SEC](https://github.com/kolesman/SEC).
