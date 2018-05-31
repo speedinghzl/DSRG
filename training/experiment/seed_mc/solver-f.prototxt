@@ -1,0 +1,17 @@
+train_net: "train-f.prototxt"
+
+random_seed: 0
+
+lr_policy: "poly"
+power: 0.9
+base_lr: 1e-3
+
+average_loss: 20
+display: 20
+max_iter: 20000
+momentum: 0.9
+weight_decay: 0.0005
+
+snapshot: 10000
+snapshot_prefix: "models/model-f"
+solver_mode: GPU

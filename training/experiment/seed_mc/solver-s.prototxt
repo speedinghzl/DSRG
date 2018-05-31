@@ -1,0 +1,18 @@
+train_net: "train-s.prototxt"
+
+random_seed: 0
+
+lr_policy: "step"
+gamma: 0.33
+stepsize: 1000
+base_lr: 5e-4
+
+display: 10
+average_loss: 10
+max_iter: 8000
+momentum: 0.9
+weight_decay: 0.0005
+
+snapshot: 8000
+snapshot_prefix: "models/model-s"
+solver_mode: GPU
