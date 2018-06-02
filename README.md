@@ -11,7 +11,7 @@ DSRG is released under the MIT License (refer to the LICENSE file for details).
 
 ### Citing DSRG
 
-If you find OICR useful in your research, please consider citing:
+If you find DSRG useful in your research, please consider citing:
 
     @inproceedings{huang2018dsrg,
         Author = {Huang, Zilong and Wang, Xinggang and Wang, Jiasi and Liu, Wenyu and Wang, Jingdong},
