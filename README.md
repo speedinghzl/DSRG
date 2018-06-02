@@ -3,8 +3,23 @@
 We are updating our code. Please do not clone this repo yet.
 
 # Weakly-Supervised Semantic Segmentation Network with Deep Seeded Region Growing (CVPR2018)
+By [Zilong Huang](http://speedinghzl.github.io), [Xinggang Wang](http://mclab.eic.hust.edu.cn/~xwang/index.htm), Jiasi Wang, [Wenyu Liu](http://mclab.eic.hust.edu.cn/MCWebDisplay/PersonDetails.aspx?Name=Wenyu%20Liu) and [Jingdong Wang](https://jingdongwang2017.github.io/).
 
+### License
 
+DSRG is released under the MIT License (refer to the LICENSE file for details).
+
+### Citing DSRG
+
+If you find OICR useful in your research, please consider citing:
+
+    @inproceedings{huang2018dsrg,
+        Author = {Huang, Zilong and Wang, Xinggang and Wang, Jiasi and Liu, Wenyu and Wang, Jingdong},
+        Title = {Weakly-Supervised Semantic Segmentation Network with Deep Seeded Region Growing},
+        Booktitle = {CVPR},
+        Year = {2018}
+    }
+    
 ## Installing dependencies
 
 * Python packages:
