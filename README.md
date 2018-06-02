@@ -7,7 +7,7 @@ By [Zilong Huang](http://speedinghzl.github.io), [Xinggang Wang](http://mclab.ei
 
 ## Introduction
 ![Overview of DSRG](http://p9p8n5on3.bkt.clouddn.com/DSRG.PNG)
-Over view of the proposed approach. The Deep Seeded Region Growing module takes the seed cues and segmentation map as input produces latent pixel-wise supervision which is more accurate and more complete than seed cues. Our method iterates between reﬁning pixel-wise supervision and optimizing the parameters of a segmentation network.
+Overview of the proposed approach. The Deep Seeded Region Growing module takes the seed cues and segmentation map as input produces latent pixel-wise supervision which is more accurate and more complete than seed cues. Our method iterates between reﬁning pixel-wise supervision and optimizing the parameters of a segmentation network.
 
 
 ### License
