@@ -25,6 +25,7 @@ We are updating our code. Please do not clone this repo yet.
 
 ```bash
       $ cd training
+      $ mkdir localization_cues
 ```
 
 * Download the initial [VGG16](https://drive.google.com/open?id=1nq49w4os6BZ1JcrM4xqZKZh1wR3-32wi) model pretrained on Imagenet: 
@@ -33,6 +34,7 @@ We are updating our code. Please do not clone this repo yet.
 
 ```bash
       $ cd training/experiment/seed_mc
+      $ mkdir models
 ```
 * Set *root_folder* parameter in **train-s.prototxt, train-f.prototxt** and *PASCAL_DIR*  in **run-s.sh** to the directory with **PASCAL VOC 2012** images
 
