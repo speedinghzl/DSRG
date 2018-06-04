@@ -31,7 +31,7 @@ If you find DSRG useful in your research, please consider citing:
 ```bash
       $ pip install -r python-dependencies.txt
 ```
-* **caffe**: installation instructions are available at `http://caffe.berkeleyvision.org/installation.html`.
+* **caffe (deeplabv2 version)**: deeplabv2 caffe installation instructions are available at `https://bitbucket.org/aquariusjay/deeplab-public-ver2`.
    Note, you need to compile **caffe** with python wrapper and support for python layers.
 
 * Fully connected CRF wrapper (requires the **Eigen3** package).
