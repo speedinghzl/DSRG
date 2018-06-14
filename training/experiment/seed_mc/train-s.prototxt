@@ -31,7 +31,7 @@ layer {
   top: 'images'
   python_param {
       module: 'pylayers'
-      layer: 'AnnotationLayer3'
+      layer: 'AnnotationLayer'
       param_str: "{'cues': 'localization_cues-sal.pickle', 'mirror': True}"
       }
   propagate_down: 0
@@ -780,7 +780,7 @@ layer {
   type: "Python"
   python_param {
     module: "pylayers"
-    layer: "UpdateSeedLayer3"
+    layer: "DSRGLayer"
     param_str: "{'th1': 0.99, 'th2': 0.85}"
   }
 }
@@ -793,7 +793,7 @@ layer {
   type: "Python"
   python_param {
     module: "pylayers"
-    layer: "SeedLossLayer3"
+    layer: "BalancedSeedLossLayer"
   }
   loss_weight: 1  
 }
