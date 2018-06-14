@@ -1,7 +1,3 @@
-# Working in Progress
-
-We are updating our code. Please do not clone this repo yet.
-
 # Weakly-Supervised Semantic Segmentation Network with Deep Seeded Region Growing (CVPR2018)
 By [Zilong Huang](http://speedinghzl.github.io), [Xinggang Wang](http://mclab.eic.hust.edu.cn/~xwang/index.htm), [Jiasi Wang](https://github.com/JiasiWang), [Wenyu Liu](http://mclab.eic.hust.edu.cn/MCWebDisplay/PersonDetails.aspx?Name=Wenyu%20Liu) and [Jingdong Wang](https://jingdongwang2017.github.io/).
 
@@ -64,6 +60,9 @@ If you find DSRG useful in your research, please consider citing:
       $ bash run-s.sh
 ```
    The trained model will be created in `models`
+   
+## Models
+coming soon!
    
 ## Acknowledgment
 This code is heavily borrowed from [SEC](https://github.com/kolesman/SEC).
