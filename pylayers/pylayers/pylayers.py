@@ -259,7 +259,7 @@ def generate_seed_step(item):
     for c in cls_index:
         mat = (label_map == (c+1))
         mat = mat.astype(int)
-        cclab = CC_labeling_8.CC_lab(mat)
+        cclab = CC_labeling_8.CC_lab(mat) # Our reviewer suggests to use connected component for accelaration, Thanks!
         cclab.connectedComponentLabel()
         high_confidence_set_label = set()
         for (x,y), value in np.ndenumerate(mat):
