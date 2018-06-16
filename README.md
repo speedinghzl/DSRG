@@ -15,10 +15,11 @@ DSRG is released under the MIT License (refer to the LICENSE file for details).
 If you find DSRG useful in your research, please consider citing:
 
     @inproceedings{huang2018dsrg,
-        Author = {Huang, Zilong and Wang, Xinggang and Wang, Jiasi and Liu, Wenyu and Wang, Jingdong},
-        Title = {Weakly-Supervised Semantic Segmentation Network with Deep Seeded Region Growing},
-        Booktitle = {CVPR},
-        Year = {2018}
+        title={Weakly-Supervised Semantic Segmentation Network with Deep Seeded Region Growing},
+        author={Huang, Zilong and Wang, Xinggang and Wang, Jiasi and Liu, Wenyu and Wang, Jingdong},
+        booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+        pages={7014--7023},
+        year={2018}
     }
     
 ## Installing dependencies
