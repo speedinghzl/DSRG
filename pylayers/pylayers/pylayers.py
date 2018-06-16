@@ -330,41 +330,6 @@ class DSRGLayer(caffe.Layer):
         result = result / np.sum(result, axis=1, keepdims=True)
         return result
 
-    def label_propagation(self, probs_c, probs_p, seed_c, image_labels):
-        channels, height, width = seed_c.shape
-        label_map = np.zeros((height, width))
-        result = np.zeros((height, width))
-
-        cls_index = np.where(image_labels == 1)[0]
-        index1 = np.where(seed_c > 0)
-        index2 = np.where(probs_p > self._th2)
-
-        label_map[index1[1], index1[2]] = index1[0] + 1 # 1-index
-        for (x,y), value in np.ndenumerate(probs_p):
-            c = cls_index[probs_c[x,y]]
-            if value > self._th2:
-                if not c == 0:
-                    label_map[x, y] = c + 1
-                elif value > 1:
-                    label_map[x, y] = c + 1
-
-        for c in cls_index:
-            mat = (label_map == (c+1))
-            mat = mat.astype(int)
-            cclab = CC_labeling_8.CC_lab(mat)
-            cclab.connectedComponentLabel()
-            high_confidence_set_label = set()
-            for (x,y), value in np.ndenumerate(mat):
-                if value == 1 and seed_c[c, x, y] == 1:
-                    high_confidence_set_label.add(cclab.labels[x][y])
-                elif value == 1 and np.sum(seed_c[:, x, y]) == 1:
-                    cclab.labels[x][y] = -1
-
-            for (x,y), value in np.ndenumerate(np.array(cclab.labels)):
-                if value in high_confidence_set_label:
-                    seed_c[c, x, y] = 1
-
-
     def generate_seed(self, labels, probs, cues, im):
         num, channels, height, width = probs.shape
         probs_refinement = self.refinement(probs, im, 12.0)
