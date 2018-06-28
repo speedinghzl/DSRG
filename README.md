@@ -45,7 +45,7 @@ If you find DSRG useful in your research, please consider citing:
       $ mkdir localization_cues
 ```
 
-* Download the initial [VGG16](https://drive.google.com/open?id=1nq49w4os6BZ1JcrM4xqZKZh1wR3-32wi) model pretrained on Imagenet: 
+* Download the initial [VGG16](https://drive.google.com/open?id=1nq49w4os6BZ1JcrM4xqZKZh1wR3-32wi) model pretrained on Imagenet and put it in *training/* folder.
 
 * Download CAM [seed](https://drive.google.com/open?id=1cHyhjul9srPlwcl4xqrYR9MwzhFGwKXU) and put it in *training/localization_cues* folder. We use [CAM](http://cnnlocalization.csail.mit.edu/) for localizing the foreground seed classes and utilize the saliency detection technology [DRFI](http://supermoe.cs.umass.edu/~hzjiang/drfi/) for localizing background seed. We provide the python interface to DRFI [here](https://github.com/speedinghzl/drfi_cpp) for convenience if you want to generate the seed by yourself.
 
