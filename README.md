@@ -58,7 +58,7 @@ If you find DSRG useful in your research, please consider citing:
 * Run:
 
 ```bash
-      $ bash run-s.sh
+      $ bash run.sh
 ```
    The trained model will be created in `models`
    
