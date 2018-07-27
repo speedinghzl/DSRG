@@ -1,9 +1,9 @@
-# Weakly-Supervised Semantic Segmentation Network with Deep Seeded Region Growing (CVPR2018)
+# Weakly-Supervised Semantic Segmentation Network with Deep Seeded Region Growing (CVPR2018) [paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Huang_Weakly-Supervised_Semantic_Segmentation_CVPR_2018_paper.pdf)
 By [Zilong Huang](http://speedinghzl.github.io), [Xinggang Wang](http://mclab.eic.hust.edu.cn/~xwang/index.htm), [Jiasi Wang](https://github.com/JiasiWang), [Wenyu Liu](http://mclab.eic.hust.edu.cn/MCWebDisplay/PersonDetails.aspx?Name=Wenyu%20Liu) and [Jingdong Wang](https://jingdongwang2017.github.io/).
 
 ## Introduction
 ![Overview of DSRG](http://p9p8n5on3.bkt.clouddn.com/DSRG.PNG)
-Overview of the proposed approach. The Deep Seeded Region Growing module takes the seed cues and segmentation map as input produces latent pixel-wise supervision which is more accurate and more complete than seed cues. Our method iterates between reﬁning pixel-wise supervision and optimizing the parameters of a segmentation network.
+Overview of the proposed approach. The Deep Seeded Region Growing module takes the seed cues and segmentation map as input to produces latent pixel-wise supervision which is more accurate and more complete than seed cues. Our method iterates between reﬁning pixel-wise supervision and optimizing the parameters of a segmentation network.
 
 
 ### License
