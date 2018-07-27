@@ -28,8 +28,7 @@ If you find DSRG useful in your research, please consider citing:
 ```bash
       $ pip install -r python-dependencies.txt
 ```
-* **caffe (deeplabv2 version)**: deeplabv2 caffe installation instructions are available at `https://bitbucket.org/aquariusjay/deeplab-public-ver2`.
-   Note, you need to compile **caffe** with python wrapper and support for python layers.
+* **caffe (deeplabv2 version)**: deeplabv2 caffe installation instructions are available at `https://bitbucket.org/aquariusjay/deeplab-public-ver2`. Note, you need to compile **caffe** with python wrapper and support for python layers. Then add the caffe python path into [training/tools/findcaffe.py](https://github.com/speedinghzl/DSRG/blob/master/training/tools/findcaffe.py#L21).
 
 * Fully connected CRF wrapper (requires the **Eigen3** package).
 ```bash
@@ -62,8 +61,6 @@ If you find DSRG useful in your research, please consider citing:
 ```
    The trained model will be created in `models`
    
-## Models
-coming soon!
    
 ## Acknowledgment
 This code is heavily borrowed from [SEC](https://github.com/kolesman/SEC).
