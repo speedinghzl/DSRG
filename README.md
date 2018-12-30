@@ -4,7 +4,7 @@ By [Zilong Huang](http://speedinghzl.github.io), [Xinggang Wang](http://mclab.ei
 This code is a implementation of the weakly-supervised semantic segmentation experiments in the paper [DSRG](http://openaccess.thecvf.com/content_cvpr_2018/papers/Huang_Weakly-Supervised_Semantic_Segmentation_CVPR_2018_paper.pdf). The code is developed based on the Caffe framework.
 
 ## Introduction
-![Overview of DSRG](http://p9p8n5on3.bkt.clouddn.com/DSRG.PNG)
+![Overview of DSRG](https://user-images.githubusercontent.com/4509744/50546511-5bb19f00-0bee-11e9-85de-4660369dbb59.png)
 Overview of the proposed approach. The Deep Seeded Region Growing module takes the seed cues and segmentation map as input to produces latent pixel-wise supervision which is more accurate and more complete than seed cues. Our method iterates between reﬁning pixel-wise supervision and optimizing the parameters of a segmentation network.
 
 
